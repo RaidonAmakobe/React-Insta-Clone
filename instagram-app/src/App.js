@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import dummyData from './dummy-data';
 import logo from './logo.svg';
 import './App.css';
 
