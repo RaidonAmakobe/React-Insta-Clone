@@ -41,7 +41,7 @@ class PostContainer extends React.Component {
                   </CardText>
                   </Media>
 
-                  <Media query = "(min-width: 401px)">
+                  <Media query = "(min-width: 401px, max-width: 960px)">
                   <CardText>
                     <small className="text-muted">
                         <Row style = {{width: 450, marginLeft: 140, marginTop: 10}}>
@@ -80,8 +80,6 @@ class PostContainer extends React.Component {
                                     <Input placeholder = "Add a comment..." />
                                 </InputGroup>  
                     </small>
-        
-            
                   </CardText>
                   </Media>
                 </CardBody>
