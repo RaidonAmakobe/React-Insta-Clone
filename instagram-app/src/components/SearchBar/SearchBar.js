@@ -57,14 +57,14 @@ class SearchBar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                  <img src = "./images/upload.svg" />
+                  Profile
                   </DropdownItem>
                   <DropdownItem>
-                  <img src = "./images/navigation-1.svg" />
+                  Messages
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    Logout
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
