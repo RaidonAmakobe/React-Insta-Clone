@@ -54,7 +54,7 @@ class PostContainer extends React.Component {
                                 300 Likes
                             </Row>
                            
-                                <InputGroup style = {{width: 440, marginLeft: 140, marginTop: 10}}>
+                                <InputGroup  style = {{width: 440, marginLeft: 140, marginTop: 10}}>
                                     <Input placeholder = "Add a comment..." />
                                 </InputGroup>  
                     </small>

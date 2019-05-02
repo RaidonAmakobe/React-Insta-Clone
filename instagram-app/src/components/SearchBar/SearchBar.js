@@ -31,14 +31,9 @@ class SearchBar extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className = "thisone">
         
         <Media query = "(max-width: 400px)">
-        <style>
-            html, css {
-                overflow: hidden;
-            }
-        </style>
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/"><img src = "./images/instagram.png" style = {{width: 130, paddingTop: 5, paddingLeft: 30}}/></NavbarBrand>
           <Col xs="9">
