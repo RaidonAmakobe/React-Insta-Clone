@@ -30,20 +30,20 @@ class SearchBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/"><img src = "./images/instagram2.png" style = {{width: 40}}/></NavbarBrand>
-          <NavbarBrand href="/"><img src = "./images/instagram.png" style = {{width: 160, paddingLeft: 30}}/></NavbarBrand>
+          <NavbarBrand href="/"><img src = "./images/instagram2.png" style = {{width: 30}}/></NavbarBrand>
+          <NavbarBrand href="/"><img src = "./images/instagram.png" style = {{width: 130, paddingTop: 5, paddingLeft: 30}}/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/"><img src = "./images/navigator.svg" /></NavLink>
+                <NavLink href="/components/"><img src = "./images/navigator.svg" style = {{width: 30}}/></NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavItem style = {{paddingLeft: 10}}>
+                <NavLink href="/"><img src = "./images/heart-like.svg" style = {{width: 30}}/></NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  <img src = "./images/heart.svg" />
+                  <img src = "./images/user.svg" style = {{width: 30}}/>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
