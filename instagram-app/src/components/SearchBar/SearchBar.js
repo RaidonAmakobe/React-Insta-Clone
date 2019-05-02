@@ -30,8 +30,8 @@ class SearchBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/"><img src = "./images/instagram2.png" /></NavbarBrand>
-          <NavbarBrand href="/"><img src = "./images/instagram.png" /></NavbarBrand>
+          <NavbarBrand href="/"><img src = "./images/instagram2.png" style = {{width: 40}}/></NavbarBrand>
+          <NavbarBrand href="/"><img src = "./images/instagram.png" style = {{width: 160, paddingLeft: 30}}/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
