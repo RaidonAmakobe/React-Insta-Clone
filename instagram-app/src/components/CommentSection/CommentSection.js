@@ -32,4 +32,13 @@ class CommentSection extends React.Component {
             JSON.stringify(this.state.comments)
         );
     };
+
+    commentHandler = handle => {
+        this.setState({ comment: handle.target.value });
+    };
+
+    handleCommentSubmit = handle => {
+        handle.preventDefault();
+        const newComment = { text: this.state.comment, username: 'mrtestperson'};
+    }
 }
