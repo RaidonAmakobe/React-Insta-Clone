@@ -18,7 +18,7 @@ class PostContainer extends React.Component {
 
                     <Card.Body>
                         <Col>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title class = "text-left">Card title</Card.Title>
                         </Col>
                         
                         <Card.Text>
