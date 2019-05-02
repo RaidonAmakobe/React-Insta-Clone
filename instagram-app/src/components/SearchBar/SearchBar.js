@@ -31,9 +31,33 @@ class SearchBar extends React.Component {
         </Navbar.Brand>
         
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>  
+            <Nav.Link href="#home">
+              <img
+                  src="./images/navigator.svg"
+                  width="30"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+              />
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <img
+                    src="./images/user.svg"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="React Bootstrap logo"
+                />
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <img
+                      src="./images/heart-like.svg"
+                      width="30"
+                      height="30"
+                      className="d-inline-block align-top"
+                      alt="React Bootstrap logo"
+                  />
+            </Nav.Link>  
           </Nav>
           <Form inline class = "center">
             <Form.Control type="text" placeholder="Search" className= "text-center" />
