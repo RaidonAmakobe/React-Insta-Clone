@@ -46,7 +46,7 @@ class SearchBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/"><img src = "./images/navigator.svg" style = {{width: 30}}/></NavLink>
+                <NavLink href="/"><img src = "./images/navigator.svg" style = {{width: 30}}/></NavLink>
               </NavItem>
               <NavItem style = {{paddingLeft: 15}}>
                 <NavLink href="/"><img src = "./images/heart-like.svg" style = {{width: 30}}/></NavLink>
