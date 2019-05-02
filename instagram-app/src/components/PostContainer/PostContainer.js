@@ -16,7 +16,7 @@ class PostContainer extends React.Component {
               <Card>
                 <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
-                  <CardTitle><Image src = "./images/audric.jpg" fluid/></CardTitle>
+                  <CardTitle><Image src = "./images/audric.jpg" fluid style = {{width: 450}}/></CardTitle>
                   <CardText>
                     <small className="text-muted">
                         <Row style = {{width: 450, marginLeft: 520, marginTop: 10}}>
