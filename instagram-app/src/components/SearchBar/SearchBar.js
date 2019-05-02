@@ -38,12 +38,12 @@ class SearchBar extends React.Component {
               <NavItem>
                 <NavLink href="/components/"><img src = "./images/navigator.svg" style = {{width: 30}}/></NavLink>
               </NavItem>
-              <NavItem style = {{paddingLeft: 10}}>
+              <NavItem style = {{paddingLeft: 15}}>
                 <NavLink href="/"><img src = "./images/heart-like.svg" style = {{width: 30}}/></NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  <img src = "./images/user.svg" style = {{width: 30}}/>
+              <UncontrolledDropdown style = {{paddingLeft: 15}} nav inNavbar>
+                <DropdownToggle nav caret >
+                  <img src = "./images/user.svg" style = {{width: 30,}}/>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
