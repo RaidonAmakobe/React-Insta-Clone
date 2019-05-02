@@ -1,21 +1,26 @@
 import React from 'react';
+import CommentSection from './CommentSection/CommentSection';
 import Image from 'react-bootstrap/Image'
 import Media from 'react-media';
 import { Container, Row, Col } from 'reactstrap';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
 import { wrap } from 'module';
+
 
 class PostContainer extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            likes: props.post.likes
+        };
     }
     render(){
         return (
             <Container>
                 <Card style = {{ marginTop: 40 }}>
                 <Card.Img variant="top" src="./images/audric.jpg" />
-
+                <Card.Header></Card.Header>
                     <Card.Body>
                         <Col>
                             <Card.Title class = "text-left">Card title</Card.Title>
