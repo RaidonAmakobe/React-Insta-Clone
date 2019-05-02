@@ -12,21 +12,26 @@ class PostContainer extends React.Component {
     }
     render(){
         return (
-            <div className = 'container'>
+            <Container>
                 <Card style = {{ marginTop: 50 }}>
-                    <Card.Img variant="top" src="./images/audric.jpg" />
+                <Card.Img variant="top" src="./images/audric.jpg" />
+
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Col>
+                            <Card.Title>Card title</Card.Title>
+                        </Col>
+                        
                         <Card.Text>
                             This card has supporting text below as a natural lead-in to additional
                             content.{' '}
                         </Card.Text>
                     </Card.Body>
+
                     <Card.Footer>
                         <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-            </div>
+            </Container>
         )
     }
 }
