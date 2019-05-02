@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import dummyData from './dummy-data';
+import PostContainer from './components/PostContainer'
 import logo from './logo.svg';
 import './App.css';
 
