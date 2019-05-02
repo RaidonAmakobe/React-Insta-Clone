@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image'
 import { Container, Row, Col } from 'reactstrap';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 import { Card, Button, CardHeader, CardFooter, CardBody,
@@ -15,7 +16,7 @@ class PostContainer extends React.Component {
               <Card>
                 <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
-                  <CardTitle><img src = "./images/audric.jpg" style = {{width: 450}}/></CardTitle>
+                  <CardTitle><Image src = "./images/audric.jpg" fluid/></CardTitle>
                   <CardText>
                     <small className="text-muted">
                         <Row style = {{width: 450, marginLeft: 520, marginTop: 10}}>
