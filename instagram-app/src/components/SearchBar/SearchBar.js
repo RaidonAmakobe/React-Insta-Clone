@@ -36,21 +36,21 @@ class SearchBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/"><img src = "./images/navigator.svg" /></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  <img src = "./images/heart.svg" />
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                  <img src = "./images/upload.svg" />
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                  <img src = "./images/navigation-1.svg" />
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
