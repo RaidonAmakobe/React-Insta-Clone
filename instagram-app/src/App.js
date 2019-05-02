@@ -13,7 +13,9 @@ class App extends Component {
       filteredPosts: []
     };
   }
-
+  componentDidMount() {
+    this.setState({ posts: dummyData });
+  }
   render() {
     return (
       <div className = "App">
