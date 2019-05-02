@@ -1,4 +1,5 @@
 import React from 'react';
+import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 import {
   Collapse,
   Navbar,
@@ -32,6 +33,7 @@ class SearchBar extends React.Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/"><img src = "./images/instagram2.png" style = {{width: 30}}/></NavbarBrand>
           <NavbarBrand href="/"><img src = "./images/instagram.png" style = {{width: 130, paddingTop: 5, paddingLeft: 30}}/></NavbarBrand>
+          <NavbarBrand href = '/' center></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
