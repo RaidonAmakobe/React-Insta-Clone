@@ -14,7 +14,7 @@ class PostContainer extends React.Component {
         return (
             <div className = 'container'>
                 <Card style = {{ marginTop: 50 }}>
-                    <Card.Img variant="top" src="./images/circleimg.png" />
+                    <Card.Img variant="top" src="./images/audric.jpg" />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
