@@ -21,6 +21,11 @@ class PostContainer extends React.Component {
                             <img src = "./images/chat.svg" style = {{width: 19, marginLeft: 20}}/>
                         </Col>
                     </small>
+                    <small className="text-muted">
+                        <Col sm = "9">
+                        <Input placeholder = "Search" />
+                        </Col>
+                    </small>
                   </CardText>
                   <CardText>
                     <small className="text-muted">
@@ -29,8 +34,6 @@ class PostContainer extends React.Component {
                         </Col>
                    </small>
                   </CardText>
-                  <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                  <Button>Go somewhere</Button>
                 </CardBody>
               </Card>
             </div>
