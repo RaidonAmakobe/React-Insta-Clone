@@ -29,8 +29,16 @@ class App extends Component {
   render() {
     return (
       <div className = "App">
-        <SearchBar />
-        <PostContainer />
+        <SearchBar 
+          searchTerm = {this.state.searchTerm}
+          searchPosts = {this.searchPostsHandler}
+          />
+        <PostContainer 
+          posts = {
+            this.state.filteredPosts.length > 0
+            ? this.state.filteredPosts
+            : this.state.posts
+          }/>
       </div>
       );
   };
