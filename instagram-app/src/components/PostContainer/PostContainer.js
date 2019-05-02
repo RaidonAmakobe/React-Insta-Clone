@@ -1,5 +1,7 @@
 import React from 'react';
 import CommentSection from './CommentSection/CommentSection';
+import LikeSection from './LikeSection';
+
 import Image from 'react-bootstrap/Image'
 import Media from 'react-media';
 import { Container, Row, Col } from 'reactstrap';
@@ -12,7 +14,7 @@ class PostContainer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            likes: props.post.likes
+            likes: PostContainer.likes
         };
     }
     render(){
