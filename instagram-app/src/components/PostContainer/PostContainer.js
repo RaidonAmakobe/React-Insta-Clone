@@ -66,17 +66,17 @@ class PostContainer extends React.Component {
                   <Media query = "(min-width: 961px)">
                   <CardText>
                     <small className="text-muted">
-                        <Row style = {{width: 450, marginLeft: 10, marginTop: 10}}>
+                        <Row style = {{width: 450, marginLeft: 515, marginTop: 10}}>
                             <img src = "./images/like.svg" style = {{width: 19}}/>
                             <img src = "./images/chat.svg" style = {{width: 19, marginLeft: 20}}/>
                         </Row>
                     </small>
                     <small className = "text-muted">
-                            <Row style = {{width: 450, marginLeft: 10, marginTop: 10}}>
+                            <Row style = {{width: 450, marginLeft: 515, marginTop: 10}}>
                                 300 Likes
                             </Row>
                            
-                                <InputGroup style = {{width: 320, marginLeft: 10, marginTop: 10}}>
+                                <InputGroup style = {{width: 450, marginLeft: 515, marginTop: 10}}>
                                     <Input placeholder = "Add a comment..." />
                                 </InputGroup>  
                     </small>
