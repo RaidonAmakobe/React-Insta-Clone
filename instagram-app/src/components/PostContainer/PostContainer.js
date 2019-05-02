@@ -13,7 +13,7 @@ class PostContainer extends React.Component {
     render(){
         return (
             <Container>
-                <Card style = {{ marginTop: 50 }}>
+                <Card style = {{ marginTop: 40 }}>
                 <Card.Img variant="top" src="./images/audric.jpg" />
 
                     <Card.Body>
