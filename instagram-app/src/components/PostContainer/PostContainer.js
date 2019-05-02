@@ -10,7 +10,7 @@ class PostContainer extends React.Component {
         return (
             <div>
               <Card>
-                <CardHeader>Header</CardHeader>
+                <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
                   <CardTitle>Special Title Treatment</CardTitle>
                   <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
