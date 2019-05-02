@@ -6,6 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 class SearchBar extends React.Component {
   constructor(props) {
@@ -14,7 +16,9 @@ class SearchBar extends React.Component {
   
   render() {
     return (
-        <Navbar bg="light" variant="light">
+      
+        <Navbar sticky = "top" bg="light" variant="light">
+     
         <Navbar.Brand href="#home">
             <img
                 src="./images/instagram2.png"
@@ -25,29 +29,16 @@ class SearchBar extends React.Component {
             />
             {<img style = {{width: 100, marginLeft: 20}} src = "./images/instagram.png" />}
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            <Dropdown title="Dropdown" id="basic-nav-dropdown">
-              <Dropdown.Item href="#action/3.1">Action</Dropdown.Item>
-              <Dropdown.Item href="#action/3.2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#action/3.3">Something</Dropdown.Item>
-              <Dropdown.Divider />
-              <Dropdown.Item href="#action/3.4">Separated link</Dropdown.Item>
-            </Dropdown>
+            <Nav.Link href="#link">Link</Nav.Link>  
           </Nav>
-          <Form inline>
-            <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
+          <Form inline class = "center">
+            <Form.Control type="text" placeholder="Search" className= "text-center" />
           </Form>
-        </Navbar.Collapse>
-          <Form inline>
-            <Form.Control type="text" placeholder="Search" className = "mr-sm-2"/>
-          </Form>
+      
         <Nav>
           <Nav.Link href="#features">
           
