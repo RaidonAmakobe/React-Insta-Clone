@@ -13,7 +13,7 @@ class PostContainer extends React.Component {
     }
     render(){
         return (
-            <div>
+            <div className = 'container'>
               <Card>
                 <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
