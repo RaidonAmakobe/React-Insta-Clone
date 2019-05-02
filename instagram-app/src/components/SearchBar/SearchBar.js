@@ -3,8 +3,7 @@ import Media from 'react-media';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/Form';
+import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 class SearchBar extends React.Component {
@@ -25,12 +24,12 @@ class SearchBar extends React.Component {
             />
             {<img style = {{width: 100, marginLeft: 20}} src = "./images/instagram.png" />}
         </Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav className="mr-sm-2">
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
         <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-primary">Search</Button>
         </Form>
       </Navbar>
