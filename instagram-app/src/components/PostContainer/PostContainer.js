@@ -13,6 +13,12 @@ class PostContainer extends React.Component {
                 <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
                   <CardTitle><img src = "./images/audric.jpg" style = {{width: 450}}/></CardTitle>
+                  <CardText>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                  </CardText>
+                  <CardText>
+                    <small className="text-muted">300 likes</small>
+                  </CardText>
                   <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                   <Button>Go somewhere</Button>
                 </CardBody>
