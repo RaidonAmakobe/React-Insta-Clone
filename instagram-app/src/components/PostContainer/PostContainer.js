@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image'
+import Media from 'react-media';
 import { Container, Row, Col } from 'reactstrap';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 import { Card, Button, CardHeader, CardFooter, CardBody,
@@ -17,6 +18,29 @@ class PostContainer extends React.Component {
                 <CardHeader><img src = "./images/circleimg.png" style = {{width: 30, paddingRight: 10}}/>mrtestperson</CardHeader>
                 <CardBody>
                   <CardTitle><Image src = "./images/audric.jpg" fluid style = {{width: 450}}/></CardTitle>
+                  <Media query = "(Max width: 400px)">
+                  <CardText>
+                    <small className="text-muted">
+                        <Row style = {{width: 450, marginLeft: 200, marginTop: 10}}>
+                            <img src = "./images/like.svg" style = {{width: 19}}/>
+                            <img src = "./images/chat.svg" style = {{width: 19, marginLeft: 20}}/>
+                        </Row>
+                    </small>
+                    <small className = "text-muted">
+                            <Row style = {{width: 450, marginLeft: 200, marginTop: 10}}>
+                                300 Likes
+                            </Row>
+                           
+                                <InputGroup style = {{width: 450, marginLeft: 200, marginTop: 10}}>
+                                    <Input placeholder = "Add a comment..." />
+                                </InputGroup>
+                        
+                            
+                    </small>
+        
+            
+                  </CardText>
+                  </Media>
                   <CardText>
                     <small className="text-muted">
                         <Row style = {{width: 450, marginLeft: 520, marginTop: 10}}>
