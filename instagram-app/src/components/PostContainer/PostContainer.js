@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import { Card, Button, CardHeader, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap';
 
@@ -14,10 +15,19 @@ class PostContainer extends React.Component {
                 <CardBody>
                   <CardTitle><img src = "./images/audric.jpg" style = {{width: 450}}/></CardTitle>
                   <CardText>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small className="text-muted">
+                        <Col sm = "9">
+                            <img src = "./images/like.svg" style = {{width: 19}}/>
+                            <img src = "./images/chat.svg" style = {{width: 19, marginLeft: 20}}/>
+                        </Col>
+                    </small>
                   </CardText>
                   <CardText>
-                    <small className="text-muted">300 likes</small>
+                    <small className="text-muted">
+                        <Col sm="9">
+                            300 likes
+                        </Col>
+                   </small>
                   </CardText>
                   <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                   <Button>Go somewhere</Button>
