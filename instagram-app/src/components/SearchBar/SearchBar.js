@@ -2,23 +2,16 @@ import React from 'react';
 import Media from 'react-media';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Navs';
+import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button'
 
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
   }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
+  
   render() {
     return (
         <Navbar bg="light" variant="light">
