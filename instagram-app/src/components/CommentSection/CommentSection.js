@@ -21,4 +21,15 @@ class CommentSection extends React.Component {
             this.setComments();
         }
     }
+ 
+    componentWillUnmount() {
+        this.setComments();
+    }
+
+    setComments = () => {
+        localStorage.setItem(
+            this.props.postId,
+            JSON.stringify(this.state.comments)
+        );
+    };
 }
