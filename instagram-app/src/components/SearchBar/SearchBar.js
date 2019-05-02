@@ -1,19 +1,7 @@
 import React from 'react';
 import Media from 'react-media';
 import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
-import { Container, Row, Col } from 'reactstrap';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+import Navbar from 'react-bootstrap/Navbar'
 
 class SearchBar extends React.Component {
   constructor(props) {

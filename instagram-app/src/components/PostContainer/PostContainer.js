@@ -20,11 +20,13 @@ class PostContainer extends React.Component {
                         <Col>
                             <Card.Title class = "text-left">Card title</Card.Title>
                         </Col>
+                        <Col>
+                            <Card.Text class = "text-left">
+                                This card has supporting text below as a natural lead-in to additional
+                                content.{' '}
+                            </Card.Text>
+                        </Col>
                         
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
-                        </Card.Text>
                     </Card.Body>
 
                     <Card.Footer>
